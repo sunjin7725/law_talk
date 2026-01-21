@@ -22,5 +22,11 @@
 git clone https://github.com/sunjin7725/law_talk.git
 
 cd law_talk
+pip install pipenv
+pipenv install
+pipenv shell
+
+cd app
+python run.py
 ```
 
