@@ -1,0 +1,9 @@
+.idea
+secret.yaml
+.env
+
+*/test*
+
+**/old*
+**/data*
+**/__pycache__/
