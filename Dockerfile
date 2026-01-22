@@ -1,5 +1,9 @@
 FROM python:3.13-slim
 
+ENV PIP_EXTRA_INDEX_URL=https://download.pytorch.org/whl/cpu \
+    CUDA_VISIBLE_DEVICES="" \
+    NVIDIA_VISIBLE_DEVICES=none
+
 RUN mkdir -p /app
 COPY app/ /app/
 WORKDIR /app
